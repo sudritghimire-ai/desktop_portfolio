@@ -35,7 +35,7 @@ const ResumeApp = () => {
             asChild
             className="inline-flex items-center space-x-2 px-6 py-3 rounded-lg transition-colors text-base"
           >
-            <a href="/sudrit_ghimire_resume.pdf" download>
+            <a href="/Sudrit-Ghimire-cv.pdf" download>
               <Download className="w-4 h-4" />
               <span>Download PDF</span>
             </a>
