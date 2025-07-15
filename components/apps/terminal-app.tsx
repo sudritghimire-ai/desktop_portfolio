@@ -301,9 +301,9 @@ case "resume":
       <div className="text-cyan-400 font-bold text-lg">Resume Download</div>
       <div className="flex items-center gap-3 p-4 border border-gray-600 rounded bg-gray-800/50">
         <Download className="w-6 h-6 text-green-400" />
-        <span className="text-white">sudrit_ghimire.pdf</span>
+        <span className="text-white">sudrit_ghimire_cv.pdf</span>
         <a
-          href="/sudrit_ghimire_resume.pdf"  
+          href="/Sudrit-Ghimire-cv.pdf"  
           download
           className="ml-auto bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-sm text-white transition-colors cursor-pointer"
           aria-label="Download Resume"
