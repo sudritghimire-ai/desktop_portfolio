@@ -36,7 +36,7 @@ const ProjectsApp = () => {
       image: "/friend.jpg",
       technologies: ["React", "Socket.io", "Node.js", "MongoDB", "Express"],
       github: "https://github.com/sudritghimire-ai/friendsearch",
-      demo: "https://friendsearch.vercel.app",
+      demo: "https://studysync-1-thil.onrender.com/auth",
       stars: 15,
       forks: 2,
     },
