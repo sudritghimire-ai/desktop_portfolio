@@ -100,6 +100,11 @@ const ResumeApp = () => {
                 swipe UX.
                 <br /> <span className="text-xs text-gray-400">[Socket.io, MongoDB, Express, React]</span>
               </li>
+<li>
+  <strong className="text-yellow-400">Campus Write:</strong> Helps Students to know and apply to the universities.
+  <br /> <span className="text-xs text-gray-400">[React, Next.js, Zustand, React-RND, Tailwind CSS, MERN]</span>
+</li>
+
             </ul>
           </CardContent>
         </Card>
