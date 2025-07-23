@@ -12,7 +12,7 @@ const ResumeApp = () => {
         <header className="text-center">
           <div className="mb-6">
             <Image
-              src="/sudrit.jpg"
+              src="/sudrit_final.jpg"
               alt="Sudrit Ghimire"
               width={160}
               height={160}
