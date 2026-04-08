@@ -53,7 +53,7 @@ const ContactApp = () => {
             <CardContent className="flex flex-col items-center justify-center p-0">
               <Phone className="w-8 h-8 text-green-400 mx-auto mb-2" />
               <h3 className="font-semibold mb-1 text-white">Phone</h3>
-              <p className="text-gray-400 text-sm">+977 9800000000</p>
+              <p className="text-gray-400 text-sm">+512 9988***</p>
             </CardContent>
           </Card>
           <Card className="bg-gray-800 border-gray-700 text-center p-4">
