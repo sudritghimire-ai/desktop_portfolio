@@ -8,6 +8,7 @@ import TerminalApp from "./apps/terminal-app"
 import ProjectsApp from "./apps/projects-app"
 import ResumeApp from "./apps/resume-app"
 import ContactApp from "./apps/contact-app"
+import ResearchHighlight from "./apps/research-highlight" // ✅ NEW
 
 interface WindowManagerProps {
   workAreaRef: React.RefObject<HTMLDivElement>
@@ -26,6 +27,8 @@ const WindowManager = ({ workAreaRef }: WindowManagerProps) => {
         return <ResumeApp />
       case "Contact":
         return <ContactApp />
+      case "Research": // ✅ NEW
+        return <ResearchHighlight />
       default:
         return <div>Unknown app</div>
     }
@@ -36,7 +39,11 @@ const WindowManager = ({ workAreaRef }: WindowManagerProps) => {
       {windows
         .filter((window) => window.isOpen && !window.isMinimized)
         .map((window) => (
-          <Window key={window.id} window={window} boundsElement={workAreaRef.current}>
+          <Window
+            key={window.id}
+            window={window}
+            boundsElement={workAreaRef.current}
+          >
             {getAppComponent(window.component)}
           </Window>
         ))}
